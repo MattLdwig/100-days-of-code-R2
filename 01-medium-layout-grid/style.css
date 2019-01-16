@@ -1,0 +1,253 @@
+:root {
+    --blue: #2C3E50;
+    --lightBlack: rgba(0,0,0,0.1);
+    --mediumLightGreen: #02B875;
+    --mediumDarkGreen: #1C9963;
+}
+  html {
+    box-sizing: border-box;
+    font-family: "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma,
+      Sans-Serif;
+    font-weight: normal;
+    color: #272727;
+    text-shadow: 0 2px 0 rgba(0, 0, 0, 0.07);
+    font-size: 18px;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: normal;
+    margin: 0;
+    font-size: 1.5em;
+  }
+
+  ul > li {
+      list-style-type: none;
+  }
+
+  h1,
+  h2 {
+      font-style: italic;
+  }
+
+  h1 {
+      font-size: 50px;
+  }
+
+  h2 {
+      font-size: 40px;
+  }
+
+  p {
+      line-height: 1.5em;
+  }
+
+/* Header */
+
+.header-container {
+    display: grid;
+    grid-template-columns: 3fr 12fr 3fr;
+    box-shadow: 0 4px 12px 0 rgba(0,0,0,.05);
+    padding: 15px 0;
+}
+
+.metabar {
+    grid-column: 2 / span 1;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    grid-auto-flow: row;
+    grid-gap: 10px;
+}
+
+.metabar__details {
+    display: grid;
+    grid-template-columns: auto auto 1fr;
+    align-items: center;
+}
+
+.u-flexCenter{
+    border-right: 2px solid rgba(255,255,255,.2);
+    display: block;
+}
+
+.metabar__org {
+    font-size: 20px;
+}
+
+.metabar__extra {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-flow: column;
+    align-items: center;
+    grid-gap: 20px;
+}
+
+/* Content */
+
+.medium {
+    display: grid;
+    grid-template-columns: 1fr 1fr 20px 740px 20px 1fr 1fr;
+    grid-gap: 20px;
+    margin: 50px auto;
+}
+
+.medium > * {
+    grid-column: 4;
+}
+
+.medium > figure {
+    grid-column: 2 / -2;
+    margin: 20px auto;
+}
+
+.medium > blockquote {
+    grid-column: 3 / span 2;
+    padding-left: 10px;
+    border-left: 3px solid #272727;
+}
+
+.content {
+    margin: 40px 0;
+    display: grid;
+    grid-template-columns: 3fr 12fr 3fr;   
+    justify-items: center;
+}
+
+.content > * {
+    grid-column: 2 / -2;
+}
+
+.content-title,
+.content-meta {
+    justify-self: flex-start;
+}
+
+.content-meta {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-gap: 20px;
+    margin: 20px 0 40px 0;
+}
+
+.avatar-image {
+    border-radius: 50%;
+}
+
+.content-meta__info {
+    display: grid;
+    grid-gap: 10px;
+    align-items: flex-start;
+    grid-template-rows: auto 1fr;
+}
+
+.btn-light {
+    background: none;
+    border: 1px solid var(--mediumLightGreen);
+    border-radius: 4px;
+    padding: 3px;
+    width: 60px;
+    color: var(--mediumDarkGreen);
+}
+
+.meta-link {
+    color: #272727;
+    text-decoration: none;
+}
+
+.content > img {
+    margin: 20px 0;
+}
+
+/* Aside */ 
+
+.social {
+    grid-column: 5;
+}
+
+.social--list {
+    margin: 0;
+    padding: 0;
+}
+
+.social--container {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.extra-tags  {
+    padding: 0;
+    margin: 0;
+}
+
+.tag {
+    display: inline;
+    background: rgba(0,0,0,.05);
+    padding: 5px 10px;
+    color: rgba(0,0,0,.68);
+    font-size: 16px;
+}
+
+.clap {
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border: 2px solid var(--lightBlack);
+    background: none;
+}
+
+.social--interaction {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    margin: 20px 0;
+    grid-gap: 10px;
+    border-bottom: 1px solid var(--lightBlack);
+    padding: 20px 0;
+    align-items: center;
+}
+
+.clap,
+.post-actions__social {
+    grid-row: 1;
+}
+
+.svg-clap {
+    fill: var(--mediumDarkGreen);
+}
+
+.post-actions__social {
+    grid-column: 3;
+}
+
+.extra_follow {
+    display: grid;
+    grid-template-columns: auto auto auto 1fr;
+    grid-gap: 10px;
+    font-size: 16px;
+    align-items: center;
+}
+
+.extra_follow button {
+    background: none;
+    border: 1px solid var(--mediumLightGreen);
+    color: var(--mediumDarkGreen);
+    border-radius: 4px;
+    box-shadow: none;
+    padding: 5px 10px;
+}

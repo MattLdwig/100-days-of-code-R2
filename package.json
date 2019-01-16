@@ -1,0 +1,19 @@
+{
+  "name": "00-100days-repos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MattLdwig/100-days-of-code-R2.git"
+  },
+  "author": "Matthieu Le Deuf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MattLdwig/100-days-of-code-R2/issues"
+  },
+  "homepage": "https://github.com/MattLdwig/100-days-of-code-R2#readme"
+}
