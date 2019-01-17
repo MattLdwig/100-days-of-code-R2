@@ -12,14 +12,18 @@ const style = {
 }
 
 const titleStyle = {
-    fontSize: '4em'
+    fontSize: '4em',
+    padding: '0 20px'
 }
 
 const displayStyle = {
     borderTop: '2px solid #00FEC6',
     borderBottom: '2px solid #00FEC6',
     height: '100%',
-    width: '100%'
+    width: '100%',
+    display: 'grid',
+    alignItems: 'center',
+    fontSize: '28px'
 }
 
 const instrumentsStyle = {
@@ -29,14 +33,41 @@ const instrumentsStyle = {
 
 const switchContainerStyle = {
     width: '100%',
-    height: '100%'
+    height: '100%',
+    display: 'grid',
+    gridTemplateColumns: '1fr 1fr',
 }
 
 const switchStyle = {
     border: 'none',
     background: '#00FEC6',
     width: '100%',
-    height: '100%'
+    height: '100%',
+    textAlign: 'center',
+    gridColumn: '1 / -1',
+    color: '#FFF',
+    fontSize: '28px'
+}
+
+const buttonSelectionStyle = {
+    border: 'none',
+    background: '#00FEC6',
+    width: '100%',
+    height: '100%',
+    textAlign: 'center',
+    color: '#FFF',
+    fontSize: '28px',
+}
+
+const offButton = {
+    width: '100%',
+    height: '100%',
+    border: 'none',
+    textAlign: 'center',
+    color: '#FFF',
+    fontSize: '28px',
+    background: '#67fedd',
+    opacity: '0.2'
 }
 
 class Controls extends React.Component {
@@ -54,12 +85,11 @@ class Controls extends React.Component {
                     <h2>F</h2>
                 </div>
                 <div className="PadControls--selection" style={switchContainerStyle}>
-                    <select className="PadControls--selection-instruments" name="instruments" style={switchStyle}>
-                        <option value="piano">Piano</option>
-                    </select>
+                    <button className="PadControls--piano" style={offButton}>&#x1F3B9;</button>
+                    <button className="PadControls--saxo" style={buttonSelectionStyle}>&#x1F3B7;</button>
                 </div>
                 <div className="PadControls--switch" style={switchContainerStyle}>
-                    <button style={switchStyle}>Play</button>
+                    <button style={switchStyle}>&#x25B6;</button>
                 </div>
             </div>
         );
