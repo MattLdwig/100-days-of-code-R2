@@ -82,7 +82,7 @@ class Controls extends React.Component {
             <div className="PadControls" style={this.state.PadControlsStyle}>
                 <h1 style={titleStyle}>Drum Machine</h1>
                 <div id="display" className="PadControls--display" style={displayStyle}>
-                    <h2>F</h2>
+                    <h2>{this.props.display}</h2>
                 </div>
                 <div className="PadControls--selection" style={switchContainerStyle}>
                     <button className="PadControls--piano" style={offButton}>&#x1F3B9;</button>

@@ -37,6 +37,24 @@
   grid-template-columns: 1fr 2fr;
 }
 
+.Pad {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border: 2px solid #fff;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    font-size: 48px;
+    color: #fff;
+    
+}
+
+.Pad:hover {
+  background: #FFF;
+  color: #00FEC6;
+}
+
 
 @keyframes App-logo-spin {
   from {

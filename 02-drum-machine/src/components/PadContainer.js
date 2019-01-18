@@ -19,15 +19,15 @@ class PadContainer extends React.Component {
     render() {
         return(
             <div className="PadContainer" style={this.state.PadContainerStyle}>
-                <Pad keyBind="Q"/>
-                <Pad keyBind="W"/>
-                <Pad keyBind="E"/>
-                <Pad keyBind="A"/>
-                <Pad keyBind="S"/>
-                <Pad keyBind="D"/>
-                <Pad keyBind="Z"/>
-                <Pad keyBind="X"/>
-                <Pad keyBind="C"/>
+                <Pad displayKeyBind={this.props.displayKeyBind} keyBind="Q" note="DO"/>
+                <Pad displayKeyBind={this.props.displayKeyBind} keyBind="W" note="RE#"/>
+                <Pad displayKeyBind={this.props.displayKeyBind} keyBind="E" note="RE"/>
+                <Pad displayKeyBind={this.props.displayKeyBind} keyBind="A" note="MI#"/>
+                <Pad displayKeyBind={this.props.displayKeyBind} keyBind="S" note="MI"/>
+                <Pad displayKeyBind={this.props.displayKeyBind} keyBind="D" note="FA"/>
+                <Pad displayKeyBind={this.props.displayKeyBind} keyBind="Z" note="SOL#"/>
+                <Pad displayKeyBind={this.props.displayKeyBind} keyBind="X" note="SOL"/>
+                <Pad displayKeyBind={this.props.displayKeyBind} keyBind="C" note="LA#"/>
             </div>
         );
     }

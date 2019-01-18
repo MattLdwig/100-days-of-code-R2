@@ -6,12 +6,30 @@ import Controls from './components/Controls';
 import PadContainer from  './components/PadContainer';
 
 class App extends Component {
+  constructor() {
+    super();
+
+    this.displayKeyBind = this.displayKeyBind.bind(this);
+
+    this.state = {
+      keyPush: {
+        key: '-'
+      }
+    }
+  }
+  displayKeyBind(bind) {
+    this.setState({ 
+      keyPush: bind
+    })
+    console.log(bind);
+  }
+
   render() {
     return (
       <div className="App">
         <div id="drum-machine" className="App-drum--container">
-          <Controls />
-          <PadContainer />
+          <Controls display={this.state.keyPush.key} />
+          <PadContainer displayKeyBind={this.displayKeyBind} />
         </div>
       </div>
     );
