@@ -6,9 +6,13 @@ class Pad extends React.Component {
     }
     handleBind = event => {
         const keyBind = {
-            key: this.props.note
+            key: this.props.note,
+            url: this.props.audioUrl
         }
         this.props.displayKeyBind(keyBind)
+
+        const audio = new Audio(this.props.audio);
+        audio.play()
     }
 
     render() {

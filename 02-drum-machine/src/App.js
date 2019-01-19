@@ -17,11 +17,10 @@ class App extends Component {
       }
     }
   }
-  displayKeyBind(bind) {
+  displayKeyBind(callback) {
     this.setState({ 
-      keyPush: bind
+      keyPush: callback
     })
-    console.log(bind);
   }
 
   render() {
