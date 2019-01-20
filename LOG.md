@@ -8,3 +8,4 @@
 | 004 | Jan 17, 2019 | [FCC Drum Machine] (02-drum-machine) | Use State & setState to manage part of the component, diff between props & state, CSS with React | In Progress |
 | 005 | Jan 18, 2019 | [FCC Drum Machine] (02-drum-machine) | Use props to send info from children to parents; use ES6 syntax for functions | In Progress |
 | 006 | Jan 19, 2019 | [FCC Drum Machine] (02-drum-machine) | Use `new Audio()` aud `play()` to play sounds in the browser | In Progress |
+| 007 | Jan 20, 2019 | [FCC Drum Machine] (02-drum-machine) | Use Promise after setState, pass objects to children components | In Progress |
