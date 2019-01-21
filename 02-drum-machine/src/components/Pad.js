@@ -6,6 +6,16 @@ class Pad extends React.Component {
         this.handleBind = this.handleBind.bind(this);
 
     }
+
+    componentDidMount() {
+        document.addEventListener('keydown', this.checkKey);
+    }
+
+    checkKey = event => {
+        if(event.keyCode === this.props.soundsBank.keyCode) {
+            this.handleBind(this);
+        }
+    }
     
     handleBind = event => {
         const keyBind = {
@@ -18,7 +28,7 @@ class Pad extends React.Component {
     render() {
         return(
             <div className="Pad" onClick={this.handleBind}>
-            <h3>{this.props.soundsBank.note}</h3>
+            <h3>{this.props.soundsBank.keyPad}</h3>
             </div>
         );
     }

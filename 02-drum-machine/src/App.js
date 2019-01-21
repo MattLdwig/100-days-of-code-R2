@@ -23,83 +23,91 @@ class App extends Component {
     super();
 
     this.displayKeyBind = this.displayKeyBind.bind(this);
-    this.handleKey = this.handleKey.bind(this);
+    this.playSound = this.playSound.bind(this);
 
     this.state = {
       keyPush: {
         key: '-',
         noteToPlay: ''
       },
-      soundsBank: {
-        keyC: {
+      soundsBank: [
+        {
           note: 'C',
           keyCode: 81,
-          sound: C
+          sound: C,
+          keyPad: 'q'
         },
-        keyCs: {
+        {
           note: 'C#',
           keyCode: 87,
-          sound: C_sharp
+          sound: C_sharp,
+          keyPad: 'w'
         },
-        keyD: {
+        {
           note: 'D',
           keyCode: 69,
-          sound: D
+          sound: D,
+          keyPad: 'e'
         },
-        keyDs: {
+        {
           note: 'D#',
           keyCode: 82,
-          sound: D_sharp
+          sound: D_sharp,
+          keyPad: 'r'
         },
-        keyE: {
+        {
           note: 'E',
           keyCode: 65,
-          sound: E
+          sound: E,
+          keyPad: 'a'
         },
-        keyF: {
+        {
           note: 'F',
           keyCode: 83,
-          sound: F
+          sound: F,
+          keyPad: 's'
         },
-        keyFs: {
+        {
           note: 'F#',
           keyCode: 68,
-          sound: F_sharp
+          sound: F_sharp,
+          keyPad: 'd'
         },
-        keyG: {
+        {
           note: 'G',
           keyCode: 70,
-          sound: G
+          sound: G,
+          keyPad: 'f'
         },
-        keyGs: {
+        {
           note: 'G#',
           keyCode: 90,
-          sound: G_sharp
+          sound: G_sharp,
+          keyPad: 'z'
         },
-        keyA: {
+        {
           note: 'A',
           keyCode: 88,
-          sound: A
+          sound: A,
+          keyPad: 'x'
         },
-        keyAs: {
+        {
           note: 'A#',
           keyCode: 67,
-          sound: A_sharp
+          sound: A_sharp,
+          keyPad: 'c'
         },
-        keyB: {
+        {
           note: 'B',
           keyCode: 86,
-          sound: B
+          sound: B,
+          keyPad: 'v'
         }
-      }
+      ]
     }
   }
 
-  componentDidMount() {
-    document.addEventListener('keydown', this.handleKey);
-  }
-
-  handleKey() {
+  playSound() {
     const audio = new Audio(this.state.keyPush.noteToPlay);
     audio.currentTime = 0;
     audio.play()
@@ -107,10 +115,8 @@ class App extends Component {
 
 
   displayKeyBind(callback) {
-    this.setState({ 
-      keyPush: callback
-    }, () => {
-      this.handleKey();
+    this.setState({ keyPush: callback}, () => {
+        this.playSound();
     })
   }
 
