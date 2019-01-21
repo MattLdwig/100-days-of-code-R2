@@ -77,7 +77,21 @@ class Controls extends React.Component {
             PadControlsStyle :style
         }
     }
+
+    switchPower = () => {
+        this.props.switchPower()
+    }
+
     render() {
+        const power = this.props.powerState;
+        let button;
+
+        if (power) {
+            button = <button className="PadControls--switch-btn" style={switchStyle} onClick={this.switchPower}>&#x25B6;</button>;
+        }
+        else {
+            button = <button className="PadControls--switch-btn" style={switchStyle} onClick={this.switchPower}>&#9724;</button>
+        }
         return(
             <div className="PadControls" style={this.state.PadControlsStyle}>
                 <h1 style={titleStyle}>Drum Machine</h1>
@@ -89,7 +103,7 @@ class Controls extends React.Component {
                     <button className="PadControls--saxo" style={buttonSelectionStyle}>&#x1F3B7;</button>
                 </div>
                 <div className="PadControls--switch" style={switchContainerStyle}>
-                    <button style={switchStyle}>&#x25B6;</button>
+                    {button}
                 </div>
             </div>
         );

@@ -24,8 +24,10 @@ class App extends Component {
 
     this.displayKeyBind = this.displayKeyBind.bind(this);
     this.playSound = this.playSound.bind(this);
+    this.switchPower = this.switchPower.bind(this);
 
     this.state = {
+      power: false,
       keyPush: {
         key: '-',
         noteToPlay: ''
@@ -113,18 +115,23 @@ class App extends Component {
     audio.play()
   }
 
+  switchPower() {
+    this.setState({ power: !this.state.power })
+  }
 
   displayKeyBind(callback) {
-    this.setState({ keyPush: callback}, () => {
+    if (this.state.power) {
+      this.setState({ keyPush: callback}, () => {
         this.playSound();
     })
+    }
   }
 
   render() {
     return (
       <div className="App">
         <div id="drum-machine" className="App-drum--container">
-          <Controls display={this.state.keyPush.key} />
+          <Controls display={this.state.keyPush.key} switchPower={this.switchPower} powerState={this.state.power}/>
           <PadContainer displayKeyBind={this.displayKeyBind} soundsBank={this.state.soundsBank}/>
         </div>
       </div>
