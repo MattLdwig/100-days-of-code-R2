@@ -6,17 +6,17 @@ import Controls from './components/Controls';
 import PadContainer from  './components/PadContainer';
 
 import C from './sounds/C.wav'
-import C_sharp from './sounds/C_sharp.mp3'
-import D from './sounds/D.mp3'
-import D_sharp from './sounds/D_sharp.mp3'
-import E from './sounds/E.mp3'
-import F from './sounds/F.mp3'
-import F_sharp from './sounds/F_sharp.mp3'
-import G from './sounds/G.mp3'
-import G_sharp from './sounds/G_sharp.mp3'
-import A from './sounds/A.mp3'
-import A_sharp from './sounds/A_sharp.mp3'
-import B from './sounds/B.mp3'
+import C_sharp from './sounds/C_sharp.wav'
+import D from './sounds/D.wav'
+import D_sharp from './sounds/D_sharp.wav'
+import E from './sounds/E.wav'
+import F from './sounds/F.wav'
+import F_sharp from './sounds/F_sharp.wav'
+import G from './sounds/G.wav'
+import G_sharp from './sounds/G_sharp.wav'
+import A from './sounds/A.wav'
+import A_sharp from './sounds/A_sharp.wav'
+import B from './sounds/B.wav'
 
 class App extends Component {
   constructor() {
