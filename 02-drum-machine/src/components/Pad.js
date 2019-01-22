@@ -28,14 +28,15 @@ class Pad extends React.Component {
     }
 
     activePad() {
-        this.setState({ padActive: !this.state.padActive})
+        if(this.props.power) { 
+            this.setState({ padActive: !this.state.padActive})
+        }
     }
     
     handleBind = event => {
-        const keyBind = {
-            key: this.props.soundsBank.note,
-            noteToPlay: this.props.soundsBank.sound
-        }
+        const keyBind = {}
+        keyBind.key = this.props.bank ? this.props.soundsBank.note : this.props.soundsBank.drum;
+        keyBind.noteToPlay = this.props.bank ? this.props.soundsBank.pianoSound : this.props.soundsBank.drumSound;
         this.props.displayKeyBind(keyBind)
     }
 

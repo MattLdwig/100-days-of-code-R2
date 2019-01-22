@@ -18,6 +18,19 @@ import A from './sounds/A.wav'
 import A_sharp from './sounds/A_sharp.wav'
 import B from './sounds/B.wav'
 
+import Clap1 from './sounds/clap1.wav'
+import Clap2 from './sounds/clap7.wav'
+import Clap3 from './sounds/clap15.wav'
+import Crash from './sounds/crash.wav'
+import Crash2 from './sounds/crash2.wav'
+import Hithat from './sounds/hithat.wav'
+import OpenHat from './sounds/openhat.wav'
+import Kick from './sounds/kick.wav'
+import Shaker from './sounds/shaker.wav'
+import Snare1 from './sounds/snare3.wav'
+import Snare2 from './sounds/snare8.wav'
+import Snare3 from './sounds/snare9.wav'
+
 class App extends Component {
   constructor() {
     super();
@@ -33,78 +46,102 @@ class App extends Component {
         key: '-',
         noteToPlay: ''
       },
-      currentPiano: true,
+      currentPiano: false,
       soundsBank: [
         {
           note: 'C',
+          drum: 'Clap N°1',
           keyCode: 81,
-          sound: C,
+          pianoSound: C,
+          drumSound: Clap1,
           keyPad: 'q'
         },
         {
           note: 'C#',
+          drum: 'Clap N°2',
           keyCode: 87,
-          sound: C_sharp,
+          pianoSound: C_sharp,
+          drumSound: Clap2,
           keyPad: 'w'
         },
         {
           note: 'D',
+          drum: 'Clap N°3',
           keyCode: 69,
-          sound: D,
+          pianoSound: D,
+          drumSound: Clap3,
           keyPad: 'e'
         },
         {
           note: 'D#',
+          drum: 'Crash N°1',
           keyCode: 82,
-          sound: D_sharp,
+          pianoSound: D_sharp,
+          drumSound: Crash,
           keyPad: 'r'
         },
         {
           note: 'E',
+          drum: 'Crash N°2',
           keyCode: 65,
-          sound: E,
+          pianoSound: E,
+          drumSound: Crash2,
           keyPad: 'a'
         },
         {
           note: 'F',
+          drum: 'Hithat',
           keyCode: 83,
-          sound: F,
+          pianoSound: F,
+          drumSound: Hithat,
           keyPad: 's'
         },
         {
           note: 'F#',
+          drum: 'Open Hat',
           keyCode: 68,
-          sound: F_sharp,
+          pianoSound: F_sharp,
+          drumSound: OpenHat,
           keyPad: 'd'
         },
         {
           note: 'G',
+          drum: 'Kick',
           keyCode: 70,
-          sound: G,
+          pianoSound: G,
+          drumSound: Kick,
           keyPad: 'f'
         },
         {
           note: 'G#',
+          drum: 'Shaker',
           keyCode: 90,
-          sound: G_sharp,
+          pianoSound: G_sharp,
+          drumSound: Shaker,
           keyPad: 'z'
         },
         {
           note: 'A',
+          drum: 'Snare N°1',
           keyCode: 88,
-          sound: A,
+          pianoSound: A,
+          drumSound: Snare1,
           keyPad: 'x'
         },
         {
           note: 'A#',
+          drum: 'Snare N°2',
           keyCode: 67,
-          sound: A_sharp,
+          pianoSound: A_sharp,
+          drumSound: Snare2,
           keyPad: 'c'
         },
         {
           note: 'B',
+          drum: 'Snare N°2',
           keyCode: 86,
-          sound: B,
+          pianoSound: B,
+          drumSound: Snare3,
           keyPad: 'v'
         }
       ]
@@ -142,7 +179,11 @@ class App extends Component {
                     powerState={this.state.power} 
                     bank={this.state.currentPiano}
                     switchBank={this.switchBank} />
-          <PadContainer displayKeyBind={this.displayKeyBind} soundsBank={this.state.soundsBank}/>
+          <PadContainer displayKeyBind={this.displayKeyBind} 
+                        soundsBank={this.state.soundsBank}
+                        power={this.state.power}
+                        bank={this.state.currentPiano}
+                        />
         </div>
       </div>
     );

@@ -23,7 +23,12 @@ class PadContainer extends React.Component {
         return(
             <div className="PadContainer" style={this.state.PadContainerStyle}>
                 {sounds.map((sound) => 
-                    <Pad key={sound.keyCode} displayKeyBind={this.props.displayKeyBind} soundsBank={sound} />
+                    <Pad key={sound.keyCode} 
+                        displayKeyBind={this.props.displayKeyBind} 
+                        soundsBank={sound} 
+                        power={this.props.power}
+                        bank={this.props.bank}
+                        />
                 )}
             </div>
         );
