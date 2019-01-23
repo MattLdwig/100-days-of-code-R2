@@ -7,8 +7,8 @@ class Pad extends React.Component {
             padActive: false,
             activeBank: props.soundsBank.note
         }
-        this.handleBind = this.handleBind.bind(this);
         this.activePad = this.activePad.bind(this);
+        this.playSound = this.playSound.bind(this);
     }
 
     componentDidMount() {
@@ -19,34 +19,33 @@ class Pad extends React.Component {
         document.removeEventListener('keydown', this.checkKey);
     }
 
-    checkKey = event => {
-        if(event.keyCode === this.props.soundsBank.keyCode) {
-            this.setState({ isKeyPush: true })
-            this.handleBind(this);
+    checkKey = e => {
+        if(e.keyCode === this.props.soundsBank.keyCode) {
+            this.playSound()
+        }
+    }
+
+    playSound() {
+        if(this.props.power) { 
+            const audio = document.getElementById(this.props.soundsBank.keyPad);
+            audio.currentTime = 0;
+            audio.play().catch(err => {console.log(err)});
+            const currentBankDisplay = this.props.bank ? this.props.soundsBank.note : this.props.soundsBank.drum;
+            this.props.updateDisplay(currentBankDisplay)
             this.activePad()
-            setTimeout(() => this.activePad(), 200)
+            setTimeout(() => this.activePad(), 50)
         }
     }
 
     activePad() {
-        if(this.props.power) { 
-            this.setState({ padActive: !this.state.padActive})
-        }
+        this.setState({ padActive: !this.state.padActive})
     }
     
-    handleBind = event => {
-        const keyBind = {}
-        keyBind.key = this.props.bank ? this.props.soundsBank.note : this.props.soundsBank.drum;
-        keyBind.noteToPlay = this.props.bank ? this.props.soundsBank.pianoSound : this.props.soundsBank.drumSound;
-        keyBind.keyPad = this.props.soundsBank.keyPad;
-        this.props.displayKeyBind(keyBind)
-    }
-
     render() {
         return(
-            <div className={`Pad drum-pad ${this.state.padActive ? 'active' : 'innactive'}`} id={this.props.soundsBank.pianoSound} style={this.state.pad} onClick={this.handleBind}>
-            <audio className='clip' id={this.props.soundsBank.keyPad} src={`${this.props.bank ? this.props.soundsBank.pianoSound : this.props.soundsBank.drumSound}`}></audio>
-            <h3>{this.props.soundsBank.keyPad}</h3>
+            <div className={`Pad drum-pad ${this.state.padActive ? 'active' : 'innactive'}`} id={this.props.soundsBank.pianoSound} style={this.state.pad} onClick={this.playSound}>
+            <audio preload="auto" className='clip' id={this.props.soundsBank.keyPad} src={`${this.props.bank ? this.props.soundsBank.pianoSound : this.props.soundsBank.drumSound}`}></audio>
+            {this.props.soundsBank.keyPad}
             </div>
         );
     }

@@ -11,3 +11,4 @@
 | 007 | Jan 20, 2019 | [FCC Drum Machine] (02-drum-machine) | Use Promise after setState, pass objects to children components | In Progress |
 | 008 | Jan 21, 2019 | [FCC Drum Machine] (02-drum-machine) | ES6 promises, callbacks, async/await, template literals & interpolation | In Progress |
 | 009 | Jan 22, 2019 | [FCC Drum Machine] (02-drum-machine) | ES Modules, React Concept: Declarative, Immutability & Purity, Composition, Virtual Dom & Unidirectional Data Flow | In Progress |
+| 010 | Jan 23, 2019 | [FCC Drum Machine] (02-drum-machine) | JSX syntax, PropTypes | In Progress |

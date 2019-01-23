@@ -35,13 +35,13 @@ class App extends Component {
   constructor() {
     super();
 
-    this.displayKeyBind = this.displayKeyBind.bind(this);
-    this.playSound = this.playSound.bind(this);
+    this.updateDisplay = this.updateDisplay.bind(this);
     this.switchPower = this.switchPower.bind(this);
     this.switchBank = this.switchBank.bind(this);
 
     this.state = {
       power: false,
+      displayKey: '',
       keyPush: {
         key: '-',
         noteToPlay: '',
@@ -149,15 +149,6 @@ class App extends Component {
     }
   }
 
-  playSound() {
-    const audio = document.getElementById(this.state.keyPush.keyPad);
-    //const audio = new Audio(this.state.keyPush.noteToPlay);
-    audio.currentTime = 0;
-    if(!audio.currentTime > 0) {
-      audio.play().catch(err => { console.log(err); });
-    } 
-  }
-
   switchPower() {
     this.setState({ power: !this.state.power })
   }
@@ -166,24 +157,22 @@ class App extends Component {
     this.setState({ currentPiano: !this.state.currentPiano })
   }
 
-  displayKeyBind(callback) {
-    if (this.state.power) {
-      this.setState({ keyPush: callback}, () => {
-        this.playSound();
-    })
-    }
+  updateDisplay = key => {
+   if (this.state.power) {
+     this.setState({ displayKey: key })
+   }
   }
 
   render() {
     return (
       <div className="App" id="drum-machine">
         <div className="App-drum--container">
-          <Controls display={this.state.keyPush.key} 
+          <Controls display={this.state.displayKey} 
                     switchPower={this.switchPower} 
                     powerState={this.state.power} 
                     bank={this.state.currentPiano}
                     switchBank={this.switchBank} />
-          <PadContainer displayKeyBind={this.displayKeyBind} 
+          <PadContainer updateDisplay={this.updateDisplay} 
                         soundsBank={this.state.soundsBank}
                         power={this.state.power}
                         bank={this.state.currentPiano}
