@@ -18,6 +18,8 @@ class PadContainer extends React.Component {
         }
     }
 
+    
+
     render() {
         const sounds = this.props.soundsBank;
         return(

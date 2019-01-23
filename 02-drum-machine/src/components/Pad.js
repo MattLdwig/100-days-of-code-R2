@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 
 class Pad extends React.Component {
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
         this.state =  {
-            padActive: false
+            padActive: false,
+            activeBank: props.soundsBank.note
         }
         this.handleBind = this.handleBind.bind(this);
         this.activePad = this.activePad.bind(this);
@@ -37,12 +38,14 @@ class Pad extends React.Component {
         const keyBind = {}
         keyBind.key = this.props.bank ? this.props.soundsBank.note : this.props.soundsBank.drum;
         keyBind.noteToPlay = this.props.bank ? this.props.soundsBank.pianoSound : this.props.soundsBank.drumSound;
+        keyBind.keyPad = this.props.soundsBank.keyPad;
         this.props.displayKeyBind(keyBind)
     }
 
     render() {
         return(
-            <div className={`Pad ${this.state.padActive ? 'active' : 'innactive'}`} style={this.state.pad} onClick={this.handleBind}>
+            <div className={`Pad drum-pad ${this.state.padActive ? 'active' : 'innactive'}`} id={this.props.soundsBank.pianoSound} style={this.state.pad} onClick={this.handleBind}>
+            <audio className='clip' id={this.props.soundsBank.keyPad} src={`${this.props.bank ? this.props.soundsBank.pianoSound : this.props.soundsBank.drumSound}`}></audio>
             <h3>{this.props.soundsBank.keyPad}</h3>
             </div>
         );

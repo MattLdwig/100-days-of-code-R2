@@ -44,7 +44,8 @@ class App extends Component {
       power: false,
       keyPush: {
         key: '-',
-        noteToPlay: ''
+        noteToPlay: '',
+        keyPad: ''
       },
       currentPiano: false,
       soundsBank: [
@@ -54,7 +55,7 @@ class App extends Component {
           keyCode: 81,
           pianoSound: C,
           drumSound: Clap1,
-          keyPad: 'q'
+          keyPad: 'Q'
         },
         {
           note: 'C#',
@@ -62,7 +63,7 @@ class App extends Component {
           keyCode: 87,
           pianoSound: C_sharp,
           drumSound: Clap2,
-          keyPad: 'w'
+          keyPad: 'W'
         },
         {
           note: 'D',
@@ -70,71 +71,71 @@ class App extends Component {
           keyCode: 69,
           pianoSound: D,
           drumSound: Clap3,
-          keyPad: 'e'
+          keyPad: 'E'
         },
         {
           note: 'D#',
           drum: 'Crash N°1',
-          keyCode: 82,
+          keyCode: 65,
           pianoSound: D_sharp,
           drumSound: Crash,
-          keyPad: 'r'
+          keyPad: 'A'
         },
         {
           note: 'E',
           drum: 'Crash N°2',
-          keyCode: 65,
+          keyCode: 83,
           pianoSound: E,
           drumSound: Crash2,
-          keyPad: 'a'
+          keyPad: 'S'
         },
         {
           note: 'F',
           drum: 'Hithat',
-          keyCode: 83,
+          keyCode: 68,
           pianoSound: F,
           drumSound: Hithat,
-          keyPad: 's'
+          keyPad: 'D'
         },
         {
           note: 'F#',
           drum: 'Open Hat',
-          keyCode: 68,
+          keyCode: 90,
           pianoSound: F_sharp,
           drumSound: OpenHat,
-          keyPad: 'd'
+          keyPad: 'Z'
         },
         {
           note: 'G',
           drum: 'Kick',
-          keyCode: 70,
+          keyCode: 88,
           pianoSound: G,
           drumSound: Kick,
-          keyPad: 'f'
+          keyPad: 'X'
         },
         {
           note: 'G#',
           drum: 'Shaker',
-          keyCode: 90,
+          keyCode: 67,
           pianoSound: G_sharp,
           drumSound: Shaker,
-          keyPad: 'z'
+          keyPad: 'C'
         },
         {
           note: 'A',
           drum: 'Snare N°1',
-          keyCode: 88,
+          keyCode: 82,
           pianoSound: A,
           drumSound: Snare1,
-          keyPad: 'x'
+          keyPad: 'R'
         },
         {
           note: 'A#',
           drum: 'Snare N°2',
-          keyCode: 67,
+          keyCode: 70,
           pianoSound: A_sharp,
           drumSound: Snare2,
-          keyPad: 'c'
+          keyPad: 'F'
         },
         {
           note: 'B',
@@ -142,16 +143,19 @@ class App extends Component {
           keyCode: 86,
           pianoSound: B,
           drumSound: Snare3,
-          keyPad: 'v'
+          keyPad: 'V'
         }
       ]
     }
   }
 
   playSound() {
-    const audio = new Audio(this.state.keyPush.noteToPlay);
+    const audio = document.getElementById(this.state.keyPush.keyPad);
+    //const audio = new Audio(this.state.keyPush.noteToPlay);
     audio.currentTime = 0;
-    audio.play()
+    if(!audio.currentTime > 0) {
+      audio.play().catch(err => { console.log(err); });
+    } 
   }
 
   switchPower() {
@@ -172,8 +176,8 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
-        <div id="drum-machine" className="App-drum--container">
+      <div className="App" id="drum-machine">
+        <div className="App-drum--container">
           <Controls display={this.state.keyPush.key} 
                     switchPower={this.switchPower} 
                     powerState={this.state.power} 
