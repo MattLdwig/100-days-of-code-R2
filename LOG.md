@@ -13,3 +13,5 @@
 | 009 | Jan 22, 2019 | [FCC Drum Machine] (02-drum-machine) | ES Modules, React Concept: Declarative, Immutability & Purity, Composition, Virtual Dom & Unidirectional Data Flow | In Progress |
 | 010 | Jan 23, 2019 | [FCC Drum Machine] (02-drum-machine) | JSX syntax, PropTypes | In Progress |
 | 011 | Jan 24, 2019 | [FCC Drum Machine] (02-drum-machine) | React Events syntax and Lifecycle events | Done |
+| 012 | Jan 25, 2019 | [Cryptisla blog] (https://github.com/MattLdwig/cryptisla) | Setup a blog with Gatsby, use Netlify, GraphQL discovery | In Progress |
+
