@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 import Controls from './components/Controls';
@@ -121,6 +120,7 @@ class App extends Component {
           drumSound: Shaker,
           keyPad: 'C'
         },
+        /** Here:  Pads to be deleted to pass the 7th test */
         {
           note: 'A',
           drum: 'Snare N°1',
@@ -145,6 +145,7 @@ class App extends Component {
           drumSound: Snare3,
           keyPad: 'V'
         }
+        /** end of the deletion area */
       ]
     }
   }
