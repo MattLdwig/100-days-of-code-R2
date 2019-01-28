@@ -2,6 +2,7 @@
 
 | Day | Date | Project | Progress & Lessons | Status |
 | --- | --- | --- | --- | --- |
+| 1️⃣ 6️⃣ | Jan 28, 2019 | [Cryptisla blog](https://github.com/MattLdwig/cryptisla) | Tried to integrate Disqus to Gatsby. Learned some things about React HOC and SSR. | 🔨 |
 | 1️⃣ 5️⃣ | Jan 27, 2019 | [Random Quotes Machine](https://github.com/MattLdwig/FreeCodeCamp_Random-Quotes-and-Colors) | Migrate my old jQuery Random Quote Machine to React | ✅ |
 | 1️⃣ 4️⃣ | Jan 26, 2019 | [Cryptisla blog](https://github.com/MattLdwig/cryptisla) | Dived into @emotion and made some styling on cryptisla's Home Page. | 🔨 |
 | 1️⃣ 3️⃣ | Jan 25, 2019 | [Cryptisla blog](https://github.com/MattLdwig/cryptisla) | Setup a blog with Gatsby, use Netlify, GraphQL discovery | 🔨 |
