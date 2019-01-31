@@ -2,6 +2,7 @@
 
 | Day | Date | Project | Progress & Lessons | Status |
 | --- | --- | --- | --- | --- |
+| 1️⃣ 8️⃣ | Jan 31, 2019 | [Cryptisla blog](www.cryptisla.com) | Netlify configuration + some css refactoring. Finished reading ['The React Handbook'](https://flaviocopes.com/page/ebooks/) by Flavio Copes | 🔨 |
 | 1️⃣ 7️⃣ | Jan 30, 2019 | [Cryptisla blog](https://github.com/MattLdwig/cryptisla) | Node & Frontmatter configuration: get & output data for SEO, get post id  | 🔨 |
 | 1️⃣ 6️⃣| Jan 29, 2019 | [Minipomo.co](https://github.com/MattLdwig/minimalist-pomodoro.git) | Switch an old project from Bootstrap to CSS grid. Add Disqus to Gatsby ✅ | 🔨 |
 | 1️⃣ 5️⃣ | Jan 28, 2019 | [Cryptisla blog](https://github.com/MattLdwig/cryptisla) | Tried to integrate Disqus to Gatsby. Learned some things about React HOC and SSR. | 🔨 |
