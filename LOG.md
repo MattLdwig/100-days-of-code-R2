@@ -2,6 +2,7 @@
 
 | Day | Date | Project | Progress & Lessons | Status |
 | --- | --- | --- | --- | --- |
+| 2️⃣ 0️⃣ | Feb 02, 2019 | [React Markdown Previewer](https://github.com/MattLdwig/react-markdown-preview.git) | Built a markdown previewer with React and [Marked.js](https://marked.js.org). Prototype ✔️| 🔨 |
 | 1️⃣ 9️⃣ | Feb 01, 2019 | [Okopio blog](https://github.com/MattLdwig/okopio.git) | Started to create a 2d blog with Gatsby from _almost_ scratch. Today: Header configuration | 🔨 |
 | 1️⃣ 8️⃣ | Jan 31, 2019 | [Cryptisla blog](www.cryptisla.com) | Netlify configuration + some css refactoring. Finished reading ['The React Handbook'](https://flaviocopes.com/page/ebooks/) by Flavio Copes | 🔨 |
 | 1️⃣ 7️⃣ | Jan 30, 2019 | [Cryptisla blog](https://github.com/MattLdwig/cryptisla) | Node & Frontmatter configuration: get & output data for SEO, get post id  | 🔨 |
