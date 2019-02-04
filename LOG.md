@@ -2,6 +2,7 @@
 
 | Day | Date | Project | Progress & Lessons | Status |
 | --- | --- | --- | --- | --- |
+| 2️⃣ 2️⃣ | Feb 04, 2019 | [React Markdown Previewer](https://mattldwig.github.io/react-markdown-preview/) | Setup package.json and upload app to GitHub Pages. Completed [Palindrome Checker](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/palindrome-checker) challenge. | ✔️ |
 | 2️⃣ 1️⃣ | Feb 03, 2019 | [React Markdown Previewer](https://github.com/MattLdwig/react-markdown-preview.git) | Completed my markdown previewer with React and [Marked.js](https://marked.js.org).| ✔️ |
 | 2️⃣ 0️⃣ | Feb 02, 2019 | [React Markdown Previewer](https://github.com/MattLdwig/react-markdown-preview.git) | Built a markdown previewer with React and [Marked.js](https://marked.js.org). Prototype ✔️| 🔨 |
 | 1️⃣ 9️⃣ | Feb 01, 2019 | [Okopio blog](https://github.com/MattLdwig/okopio.git) | Started to create a 2d blog with Gatsby from _almost_ scratch. Today: Header configuration | 🔨 |
