@@ -2,6 +2,7 @@
 
 | Day | Date | Project | Progress & Lessons | Status |
 | --- | --- | --- | --- | --- |
+| 2️⃣ 4️⃣ | Feb 06, 2019 | [FCC JS algorithms](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects) | Completed two challenges today. [Roman numeral converter](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/roman-numeral-converter) & [Caesars cipher](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/caesars-cipher). | ✔️ |
 | 2️⃣ 3️⃣ | Feb 05, 2019 | [FCC Drum Machine](https://mattldwig.github.io/react-drum-machine/) | Setup package.json and upload app to GitHub Pages. Implemented Pin Button to [Amande et Basilic](https://www.amandebasilic.com) | ✔️ |
 | 2️⃣ 2️⃣ | Feb 04, 2019 | [React Markdown Previewer](https://mattldwig.github.io/react-markdown-preview/) | Setup package.json and upload app to GitHub Pages. Completed [Palindrome Checker](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/palindrome-checker) challenge. | ✔️ |
 | 2️⃣ 1️⃣ | Feb 03, 2019 | [React Markdown Previewer](https://github.com/MattLdwig/react-markdown-preview.git) | Completed my markdown previewer with React and [Marked.js](https://marked.js.org).| ✔️ |
