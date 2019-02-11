@@ -2,7 +2,9 @@
 
 | Day | Date | Project | Progress & Lessons | Status |
 | --- | --- | --- | --- | --- |
-| 2️⃣ 7️⃣ | Feb 09, 2019 | [Portfolio](https://github.com/MattLdwig/my-portfolio.git) | Spend some time to play with CSS animations. Used Keyframes & animations property to make block reveal & fade In animations | 🔨 |
+| 2️⃣ 9️⃣ | Feb 11, 2019 | [FCC Responsive Web Design](https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-projects) | Back to my old projects created as part of the freeCodeCamp's "Responsive Web Design" certification. Made some change and got [certification](https://www.freecodecamp.org/certification/mattldwig/responsive-web-design
+).| ✔️ |
+| 2️⃣ 8️⃣ | Feb 10, 2019 | [Portfolio](https://github.com/MattLdwig/my-portfolio.git) | Spend some time to play with CSS animations. Used Keyframes & animations property to make block reveal & fade In animations | 🔨 |
 | 2️⃣ 7️⃣ | Feb 09, 2019 | [Portfolio](https://github.com/MattLdwig/my-portfolio.git) | Started to build my portfolio with react-static & CSS grid | 🔨 |
 | 2️⃣ 6️⃣ | Feb 08, 2019 | [FCC JS algorithms](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects) | Last FreeCodeCamp's algo solved today. Learned about reduce() & arrays in general. Got my [JS algo & Data Structures certification](https://www.freecodecamp.org/certification/mattldwig/javascript-algorithms-and-data-structures) | ✔️ |
 | 2️⃣ 5️⃣ | Feb 07, 2019 | [FCC JS algorithms](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects) | Completed one more challenge today [Telephone Number Validator], left one. Learned a lot about how Regex works and how to build expressions. | ✔️ | 
