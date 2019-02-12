@@ -2,6 +2,7 @@
 
 | Day | Date | Project | Progress & Lessons | Status |
 | --- | --- | --- | --- | --- |
+| 3️⃣ 0️⃣ | Feb 12, 2019 | [Portfolio](https://github.com/MattLdwig/my-portfolio.git) | Exploration of the possibilities offered by different libraries today. Mainly Animatejs and react-transition-group. | 🔨 |
 | 2️⃣ 9️⃣ | Feb 11, 2019 | [FCC Responsive Web Design](https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-projects) | Back to my old projects created as part of the freeCodeCamp's "Responsive Web Design" certification. Made some change and got [certification](https://www.freecodecamp.org/certification/mattldwig/responsive-web-design
 ).| ✔️ |
 | 2️⃣ 8️⃣ | Feb 10, 2019 | [Portfolio](https://github.com/MattLdwig/my-portfolio.git) | Spend some time to play with CSS animations. Used Keyframes & animations property to make block reveal & fade In animations | 🔨 |
