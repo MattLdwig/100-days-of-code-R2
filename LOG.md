@@ -2,6 +2,7 @@
 
 | Day | Date | Project | Progress & Lessons | Status |
 | --- | --- | --- | --- | --- |
+| 3️⃣ 3️⃣ | Feb 15, 2019 | [Valentine's Day Animation](https://github.com/MattLdwig/Valentine-SVG-animation.git) | Made some improvements to my Valentine's Day animation. Used SVG + AnimeJS to tell a little story. | ✔️ |
 | 3️⃣ 2️⃣ | Feb 14, 2019 | [Heart Animation](https://codepen.io/Wapika/pen/vbzaQe) | First real test with AnimeJS. Made an animation for Valentine's Day. | ✔️ |
 | 3️⃣ 1️⃣ | Feb 13, 2019 | [Portfolio](https://github.com/MattLdwig/my-portfolio.git) | Still trying to implement animations between React Components. More difficult than I thought. Found a beginning of solution, thanks to Styled Components   | 🔨 |
 | 3️⃣ 0️⃣ | Feb 12, 2019 | [Portfolio](https://github.com/MattLdwig/my-portfolio.git) | Exploration of the possibilities offered by different libraries today. Mainly Animatejs and react-transition-group. | 🔨 |
