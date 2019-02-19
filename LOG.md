@@ -2,7 +2,8 @@
 
 | Day | Date | Project | Progress & Lessons | Status |
 | --- | --- | --- | --- | --- |
-| 3️⃣ 6️⃣ | Feb 8, 2019 | [JS calculator](https://github.com/MattLdwig/react-calculator.git) | Fixed some bugs on my Calculator. Proper management of multiple 0 and '.'. Project complete. | ✔️ |
+| 3️⃣ 7️⃣ | Feb 19, 2019 | [Portfolio](https://github.com/MattLdwig/my-portfolio.git) | Implementation of the main components of my portfolio (About, Case Studies, Services) | 🔨 |
+| 3️⃣ 6️⃣ | Feb 18, 2019 | [JS calculator](https://github.com/MattLdwig/react-calculator.git) | Fixed some bugs on my Calculator. Proper management of multiple 0 and '.'. Project complete. | ✔️ |
 | 3️⃣ 5️⃣ | Feb 17, 2019 | [JS calculator](https://github.com/MattLdwig/react-calculator.git) | Finished working on my React Calculator. All tests passed. Still some improvements to do (allow multiple 0 on specific conditions) | 🔨 |
 | 3️⃣ 4️⃣ | Feb 16, 2019 | [JS calculator](https://github.com/MattLdwig/react-calculator.git) | Started working on JS calculator Project. Set up the main components & 1st pieces of logic | 🔨 |
 | 3️⃣ 3️⃣ | Feb 15, 2019 | [Valentine's Day Animation](https://github.com/MattLdwig/Valentine-SVG-animation.git) | Made some improvements to my Valentine's Day animation. Used SVG + AnimeJS to tell a little story. | ✔️ |
