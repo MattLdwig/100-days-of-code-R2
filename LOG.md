@@ -2,6 +2,7 @@
 
 | Day | Date | Project | Progress & Lessons | Status |
 | --- | --- | --- | --- | --- |
+| 3️⃣ 9️⃣ | Feb 21, 2019 | [Portfolio](https://github.com/MattLdwig/my-portfolio.git) | Still working on my portfolio. Started to replace placeholders with real content and to add media queries. | 🔨 |
 | 3️⃣ 8️⃣ | Feb 20, 2019 | [Portfolio](https://github.com/MattLdwig/my-portfolio.git) | Adding styles on components. Used CSS Grid for layout. Completed the first layout run. | 🔨 |
 | 3️⃣ 7️⃣ | Feb 19, 2019 | [Portfolio](https://github.com/MattLdwig/my-portfolio.git) | Implementation of the main components of my portfolio (About, Case Studies, Services) | 🔨 |
 | 3️⃣ 6️⃣ | Feb 18, 2019 | [JS calculator](https://github.com/MattLdwig/react-calculator.git) | Fixed some bugs on my Calculator. Proper management of multiple 0 and '.'. Project complete. | ✔️ |
