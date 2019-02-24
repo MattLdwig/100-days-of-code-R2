@@ -2,6 +2,7 @@
 
 | Day | Date | Project | Progress & Lessons | Status |
 | --- | --- | --- | --- | --- |
+| 4️⃣ 2️⃣ | Feb 24, 2019 | [React Pomodoro](https://github.com/MattLdwig/react-pomodoro.git) | Started to work on the last project required for the Freecodecamp's Front-end path: Pomodoro Timer. Setup React app and main components, implemented some piece of logic. | 🔨 |
 | 4️⃣ 1️⃣ | Feb 23, 2019 | [Cursor animation](https://codepen.io/Wapika/full/gqVxdJ) | Found inspiration on [100dayscss](https://100dayscss.com) today. Used CSS (pseudo-elements) and jQuery to make a lovely cursor animation | ✔️ |
 | 4️⃣ 0️⃣ | Feb 22, 2019 | [Portfolio](https://github.com/MattLdwig/my-portfolio.git) | Still working on my portfolio. Completed CSS formating and placeholders replacement. Style simplification by removing unnecessary elements. | 🔨 |
 | 3️⃣ 9️⃣ | Feb 21, 2019 | [Portfolio](https://github.com/MattLdwig/my-portfolio.git) | Still working on my portfolio. Started to replace placeholders with real content and to add media queries. | 🔨 |
