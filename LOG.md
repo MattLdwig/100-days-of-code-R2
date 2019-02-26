@@ -2,6 +2,7 @@
 
 | Day | Date | Project | Progress & Lessons | Status |
 | --- | --- | --- | --- | --- |
+| 4️⃣ 4️⃣ | Feb 26, 2019 | [React Pomodoro](https://github.com/MattLdwig/react-pomodoro.git) | Still working on my Pomodoro app. Deletion of the pause function and implementation of the logic directly in the start function. Update of `getTime` and `getDisplayedTime` functions for better time formatting. Refactoring to do to avoid too many repetitions. | 🔨 |
 | 4️⃣ 3️⃣ | Feb 25, 2019 | [React Pomodoro](https://github.com/MattLdwig/react-pomodoro.git) | Work on my Pomorodo App. Updated updateDisplay method, added a function for managing automatic phase changes and implemented the main buttons (pause & reset). In the process of implementing the control buttons, allowing timers's customization.  | 🔨 |
 | 4️⃣ 2️⃣ | Feb 24, 2019 | [React Pomodoro](https://github.com/MattLdwig/react-pomodoro.git) | Started to work on the last project required for the Freecodecamp's Front-end path: Pomodoro Timer. Setup React app and main components, implemented some piece of logic. | 🔨 |
 | 4️⃣ 1️⃣ | Feb 23, 2019 | [Cursor animation](https://codepen.io/Wapika/full/gqVxdJ) | Found inspiration on [100dayscss](https://100dayscss.com) today. Used CSS (pseudo-elements) and jQuery to make a lovely cursor animation | ✔️ |
