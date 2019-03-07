@@ -2,6 +2,7 @@
 
 | Day | Date | Project | Progress & Lessons | Status |
 | --- | --- | --- | --- | --- |
+| 5️⃣ 3️⃣ | Mar 07, 2019 | [US GPD Visualization with D3.js](https://codepen.io/Wapika/pen/bZpyrY) | Bar chart project completed. Added a legend to the graph, changed the `mouseover` function to fill the `rect` on over state with another color and improved the tooltip (it follows the mouse on x axis with `event.x` and is attached to the top of the bar). | ✔️ |
 | 5️⃣ 2️⃣ | Mar 06, 2019 | [US GPD Visualization with D3.js](https://codepen.io/Wapika/pen/bZpyrY) | Add a tooltip to the chart, and fix the problem between bar and x axis alignment. All Freecodecamp's tests are OK but the project had space for improvements: Add a legend, a visual feedback when the user scroll over the bars and a better way to display the tooltip's informations.  | ✔️ |
 | 5️⃣ 1️⃣ | Mar 05, 2019 | [US GPD Visualization with D3.js](https://codepen.io/Wapika/pen/bZpyrY) | Implemented x and y axis to the chart. Used `axisLeft` and `scaleLinear` to map GDP Data to Y axis. Used `map` to format dates data to `Date` and `axisBottom` with `scaleTime` to map Date to X axis. | 🔨 |
 | 5️⃣ 0️⃣ | Mar 04, 2019 | [US GPD Visualization with D3.js](https://codepen.io/Wapika/pen/bZpyrY) | Made some progress with the bar chart today. Used `scaleLinear`, `range` and `domain` in addition to `attr` to map data and create rectangle with proportional heights. | 🔨 |
