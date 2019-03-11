@@ -2,6 +2,7 @@
 
 | Day | Date | Project | Progress & Lessons | Status |
 | --- | --- | --- | --- | --- |
+| 5️⃣ 7️⃣ | Mar 11, 2019 | [100 days of CSS 62 ](https://codepen.io/Wapika/pen/GevKeB) | I worked on the Scatter Plot today. I've used `d3.extent` to simplify data mapping, implemented X and Y axes and formated dates with `d3.tickFormat(d3.timeFormat())`. I've also implemented a tooltip which display more informations when a dot is hover. | 🔨 |
 | 5️⃣ 6️⃣ | Mar 10, 2019 | [100 days of CSS 62 ](https://codepen.io/Wapika/pen/GevKeB) |  Today, I started the next project for the Data Visualization path of Freecodecamp. The goal is to build a Scatter Plot chart with D3. Progress: setting up the boilerplate, fetching data with `d3.json` and starting to map them with `scaleLinear` and `scaleTime`. | 🔨 |
 | 5️⃣ 5️⃣ | Mar 09, 2019 | [100 days of CSS 62 ](https://codepen.io/Wapika/pen/JzNgJP) | Finished the card component. I've tried different ways to achieve the bar completion animation. As Pure CSS requires a complete change of the HTML structure, I used jQuery to change the width of the bars.  | ✔️ |
 | 5️⃣ 4️⃣ | Mar 08, 2019 | [100 days of CSS 62 ](https://codepen.io/Wapika/pen/JzNgJP) | Started to build a card component. I set up the html structure and formatted the general layout. | 🔨 |
