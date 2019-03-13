@@ -2,6 +2,7 @@
 
 | Day | Date | Project | Progress & Lessons | Status |
 | --- | --- | --- | --- | --- |
+| 5️⃣ 9️⃣ | Mar 13, 2019 | [D3 Heat Map](https://codepen.io/Wapika/pen/VRrVWW) | I started the Heat Map project for [Freecodecamp](https://learn.freecodecamp.org/data-visualization/data-visualization-projects/visualize-data-with-a-heat-map). Today's progress: Map data and append `rect` with correct `x` and `y` attributes, fill `rect` accordingly to their `data-temp` values, append an x axis with years.| ✔️ |
 | 5️⃣ 8️⃣ | Mar 12, 2019 | [D3 Scatter Plot](https://codepen.io/Wapika/pen/GevKeB) | I completed the Scatter Plot today. I added a legend to the graph with `g` and `rect`, used a trick to remove overlapping between circles and axes and added a title to the project.  | ✔️ |
 | 5️⃣ 7️⃣ | Mar 11, 2019 | [D3 Scatter Plot](https://codepen.io/Wapika/pen/GevKeB) | I worked on the Scatter Plot today. I've used `d3.extent` to simplify data mapping, implemented X and Y axes and formated dates with `d3.tickFormat(d3.timeFormat())`. I've also implemented a tooltip which display more informations when a dot is hover. | 🔨 |
 | 5️⃣ 6️⃣ | Mar 10, 2019 | [D3 Scatter Plot](https://codepen.io/Wapika/pen/GevKeB) |  Today, I started the next project for the Data Visualization path of Freecodecamp. The goal is to build a Scatter Plot chart with D3. Progress: setting up the boilerplate, fetching data with `d3.json` and starting to map them with `scaleLinear` and `scaleTime`. | 🔨 |
