@@ -2,6 +2,7 @@
 
 | Day | Date | Project | Progress & Lessons | Status |
 | --- | --- | --- | --- | --- |
+| 6️⃣ 1️⃣ | Mar 15, 2019 | [D3 Heat Map](https://codepen.io/Wapika/pen/VRrVWW) | Today, I started to build a complete new theme for my blog [kurinsu](kurinsu.com). I used gatsby-advanced-starter, configured global settings, code Header and articles section.| ✔️ |
 | 6️⃣ 0️⃣ | Mar 14, 2019 | [D3 Heat Map](https://codepen.io/Wapika/pen/VRrVWW) | I completed the Heat Map project today. I used `.classed()` to add and remove class when the mouse is over a `rect`, added a legend to the graph and a tooltip for displaying informations.| ✔️ |
 | 5️⃣ 9️⃣ | Mar 13, 2019 | [D3 Heat Map](https://codepen.io/Wapika/pen/VRrVWW) | I started the Heat Map project for [Freecodecamp](https://learn.freecodecamp.org/data-visualization/data-visualization-projects/visualize-data-with-a-heat-map). Today's progress: Map data and append `rect` with correct `x` and `y` attributes, fill `rect` accordingly to their `data-temp` values, append an x axis with years.| 🔨 |
 | 5️⃣ 8️⃣ | Mar 12, 2019 | [D3 Scatter Plot](https://codepen.io/Wapika/pen/GevKeB) | I completed the Scatter Plot today. I added a legend to the graph with `g` and `rect`, used a trick to remove overlapping between circles and axes and added a title to the project.  | ✔️ |
