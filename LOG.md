@@ -2,7 +2,8 @@
 
 | Day | Date | Project | Progress & Lessons | Status |
 | --- | --- | --- | --- | --- |
-| 6️⃣ 3️⃣ | Mar 17, 2019 | [Gatsby Blog](https://github.com/MattLdwig/kurinsu) | Today, I have continued to work on the theme. I finished the Home Page, set up the footer, create the category pages and start formatting the Post Page. | 🔨 |
+| 6️⃣ 4️⃣ | Mar 18, 2019 | [Gatsby Blog](https://github.com/MattLdwig/kurinsu) | Gatsby Blog follow up. I added the Newsletter Form Component, created all necessary pages and added `gatsby-page-transition` to create smooth transition between pages. Desktop version completed.| 🔨 |
+| 6️⃣ 3️⃣ | Mar 17, 2019 | [Gatsby Blog](https://github.com/MattLdwig/kurinsu) | Today, I have continued to work on the theme. I finished the Home Page, set up the footer, created the category pages and started to format the Post Page. | 🔨 |
 | 6️⃣ 2️⃣ | Mar 16, 2019 | [Gatsby Blog](https://github.com/MattLdwig/kurinsu) | Continuation of the construction of my Gatsby theme. I changed the Home's layout and made some improvements to the header. Also simplified the general grid.| 🔨 |
 | 6️⃣ 1️⃣ | Mar 15, 2019 | [Gatsby Blog](https://github.com/MattLdwig/kurinsu) | Today, I started to build a complete new theme for my blog [kurinsu](kurinsu.com). I used gatsby-advanced-starter, configured global settings, code Header and articles section.| 🔨 |
 | 6️⃣ 0️⃣ | Mar 14, 2019 | [D3 Heat Map](https://codepen.io/Wapika/pen/VRrVWW) | I completed the Heat Map project today. I used `.classed()` to add and remove class when the mouse is over a `rect`, added a legend to the graph and a tooltip for displaying informations.| ✔️ |
