@@ -2,6 +2,7 @@
 
 | Day | Date | Project | Progress & Lessons | Status |
 | --- | --- | --- | --- | --- |
+| 6️⃣ 5️⃣ | Mar 19, 2019 | [Gatsby Blog](https://github.com/MattLdwig/kurinsu) | Gatsby Blog follow up: Responsive menu with `state` and conditional rendering, Home Page Media Queries and custom background on Newsletter Component | 🔨 |
 | 6️⃣ 4️⃣ | Mar 18, 2019 | [Gatsby Blog](https://github.com/MattLdwig/kurinsu) | Gatsby Blog follow up. I added the Newsletter Form Component, created all necessary pages and added `gatsby-page-transition` to create smooth transition between pages. Desktop version completed.| 🔨 |
 | 6️⃣ 3️⃣ | Mar 17, 2019 | [Gatsby Blog](https://github.com/MattLdwig/kurinsu) | Today, I have continued to work on the theme. I finished the Home Page, set up the footer, created the category pages and started to format the Post Page. | 🔨 |
 | 6️⃣ 2️⃣ | Mar 16, 2019 | [Gatsby Blog](https://github.com/MattLdwig/kurinsu) | Continuation of the construction of my Gatsby theme. I changed the Home's layout and made some improvements to the header. Also simplified the general grid.| 🔨 |
