@@ -2,6 +2,8 @@
 
 | Day | Date | Project | Progress & Lessons | Status |
 | --- | --- | --- | --- | --- |
+| 6️⃣ 9️⃣ | Mar 23, 2019 | [Gatsby Blog](https://github.com/MattLdwig/my-wiki) | Personal Wiki setup with Gatsby. | ✔️ |
+| 6️⃣ 8️⃣ | Mar 22, 2019 | [Gatsby Blog](https://github.com/MattLdwig/cryptisla) | Second blog configuration. Push blog online. | ✔️ |
 | 6️⃣ 7️⃣ | Mar 21, 2019 | [Gatsby Blog](https://github.com/MattLdwig/kurinsu) | Gatsby Blog follow up: Add Analytics, GRPD, Mailchimp & Netlify config. Push blog online. | ✔️ |
 | 6️⃣ 6️⃣ | Mar 20, 2019 | [Gatsby Blog](https://github.com/MattLdwig/kurinsu) | Gatsby Blog follow up: Add Disqus support , changed Cover Image configuration and completed theme. | ✔️ |
 | 6️⃣ 5️⃣ | Mar 19, 2019 | [Gatsby Blog](https://github.com/MattLdwig/kurinsu) | Gatsby Blog follow up: Responsive menu with `state` and conditional rendering, Home Page Media Queries and custom background on Newsletter Component | 🔨 |
