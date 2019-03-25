@@ -2,6 +2,7 @@
 
 | Day | Date | Project | Progress & Lessons | Status |
 | --- | --- | --- | --- | --- |
+| 7️⃣ 1️⃣ | Mar 25, 2019 | [Gatsby Blog](https://github.com/MattLdwig/cryptisla) | Fix some minimals style issues. | ✔️ |
 | 7️⃣ 0️⃣ | Mar 24, 2019 | - | Sunday Break - Started to discover Arduino and built my first script. | ✔️ |
 | 6️⃣ 9️⃣ | Mar 23, 2019 | [Gatsby Blog](https://github.com/MattLdwig/my-wiki) | Personal Wiki setup with Gatsby. | ✔️ |
 | 6️⃣ 8️⃣ | Mar 22, 2019 | [Gatsby Blog](https://github.com/MattLdwig/cryptisla) | Second blog configuration. Push blog online. | ✔️ |
