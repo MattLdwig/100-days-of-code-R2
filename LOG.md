@@ -2,9 +2,10 @@
 
 | Day | Date | Project | Progress & Lessons | Status |
 | --- | --- | --- | --- | --- |
-| 7️⃣ 1️⃣ | Mar 25, 2019 | [Gatsby Blog](https://github.com/MattLdwig/cryptisla) | Fix some minimals style issues. | ✔️ |
+| 7️⃣ 2️⃣ | Mar 26, 2019 | [Choropleth Map](https://codepen.io/Wapika/pen/YggmwZ) |I started the [Freecodecamp's Choropleth Map project](https://learn.freecodecamp.org/data-visualization/data-visualization-projects/visualize-data-with-a-choropleth-map) today. I used `d3.json` to fetch the data and `topojson` and `geoPath()` to display a map. Next, I tried to create a color scale to fill each county depending on their education rate. | 🔨 |
+| 7️⃣ 1️⃣ | Mar 25, 2019 | [Gatsby Blog](https://github.com/MattLdwig/cryptisla) | Find some issues on my template today, so spent some time to fix them.| ✔️ |
 | 7️⃣ 0️⃣ | Mar 24, 2019 | - | Sunday Break - Started to discover Arduino and built my first script. | ✔️ |
-| 6️⃣ 9️⃣ | Mar 23, 2019 | [Gatsby Blog](https://github.com/MattLdwig/my-wiki) | Personal Wiki setup with Gatsby. | ✔️ |
+| 6️⃣ 9️⃣ | Mar 23, 2019 | [Personal Wiki](https://github.com/MattLdwig/my-wiki) | Personal Wiki setup with Gatsby. | ✔️ |
 | 6️⃣ 8️⃣ | Mar 22, 2019 | [Gatsby Blog](https://github.com/MattLdwig/cryptisla) | Second blog configuration. Push blog online. | ✔️ |
 | 6️⃣ 7️⃣ | Mar 21, 2019 | [Gatsby Blog](https://github.com/MattLdwig/kurinsu) | Gatsby Blog follow up: Add Analytics, GRPD, Mailchimp & Netlify config. Push blog online. | ✔️ |
 | 6️⃣ 6️⃣ | Mar 20, 2019 | [Gatsby Blog](https://github.com/MattLdwig/kurinsu) | Gatsby Blog follow up: Add Disqus support , changed Cover Image configuration and completed theme. | ✔️ |
