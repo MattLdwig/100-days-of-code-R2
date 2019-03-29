@@ -2,6 +2,7 @@
 
 | Day | Date | Project | Progress & Lessons | Status |
 | --- | --- | --- | --- | --- |
+| 7️⃣ 5️⃣ | Mar 29, 2019 | [Tree map](https://codepen.io/Wapika/pen/WmVPvz) | Started the last project of the Data Visualization path: A Tree map with D3. | 🔨 |
 | 7️⃣ 4️⃣ | Mar 28, 2019 | [Choropleth Map](https://codepen.io/Wapika/pen/YggmwZ) | I encountered a problem with the order of data today, a problem solved by using a double loop for. I added a legend and a description, the project now passes all the tests. | ✔️ |
 | 7️⃣ 3️⃣ | Mar 27, 2019 | [Choropleth Map](https://codepen.io/Wapika/pen/YggmwZ) |Worked on my Choropleth map today. I solved the color scale problem with `d3.interpolateHcl` and applied this scale to the map, depending on the education rate of each county. For merged educational data with geojson data, I used a simple for loop. It's working but very slow, I have to find something more elegant. | 🔨 |
 | 7️⃣ 2️⃣ | Mar 26, 2019 | [Choropleth Map](https://codepen.io/Wapika/pen/YggmwZ) |I started the [Freecodecamp's Choropleth Map project](https://learn.freecodecamp.org/data-visualization/data-visualization-projects/visualize-data-with-a-choropleth-map) today. I used `d3.json` to fetch the data and `topojson` and `geoPath()` to display a map. Next, I tried to create a color scale to fill each county depending on their education rate. | 🔨 |
