@@ -2,6 +2,7 @@
 
 | Day | Date | Project | Progress & Lessons | Status |
 | --- | --- | --- | --- | --- |
+| 7️⃣ 6️⃣ | Mar 30, 2019 | [Gatsby Blog](https://github.com/MattLdwig/kurinsu) | Mobile navigation update. Used [react-aria-offcanvas](https://www.npmjs.com/package/react-aria-offcanvas) and [react-responsive](https://www.npmjs.com/package/react-responsive) to display an offcanvas navigation on mobile. | 🔨 |
 | 7️⃣ 5️⃣ | Mar 29, 2019 | [Tree map](https://codepen.io/Wapika/pen/WmVPvz) | Started the last project of the Data Visualization path: A Tree map with D3. | 🔨 |
 | 7️⃣ 4️⃣ | Mar 28, 2019 | [Choropleth Map](https://codepen.io/Wapika/pen/YggmwZ) | I encountered a problem with the order of data today, a problem solved by using a double loop for. I added a legend and a description, the project now passes all the tests. | ✔️ |
 | 7️⃣ 3️⃣ | Mar 27, 2019 | [Choropleth Map](https://codepen.io/Wapika/pen/YggmwZ) |Worked on my Choropleth map today. I solved the color scale problem with `d3.interpolateHcl` and applied this scale to the map, depending on the education rate of each county. For merged educational data with geojson data, I used a simple for loop. It's working but very slow, I have to find something more elegant. | 🔨 |
