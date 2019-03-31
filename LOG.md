@@ -2,6 +2,7 @@
 
 | Day | Date | Project | Progress & Lessons | Status |
 | --- | --- | --- | --- | --- |
+| 7️⃣ 7️⃣ | Mar 31, 2019 | [Gatsby Blog](https://github.com/MattLdwig/kurinsu) | Fix offCanvas navigation on mobile (remove focusAfterClose), fix columns width on small devices (<=320px), add a home navigation link. | 🔨 |
 | 7️⃣ 6️⃣ | Mar 30, 2019 | [Gatsby Blog](https://github.com/MattLdwig/kurinsu) | Mobile navigation update. Used [react-aria-offcanvas](https://www.npmjs.com/package/react-aria-offcanvas) and [react-responsive](https://www.npmjs.com/package/react-responsive) to display an offcanvas navigation on mobile. | 🔨 |
 | 7️⃣ 5️⃣ | Mar 29, 2019 | [Tree map](https://codepen.io/Wapika/pen/WmVPvz) | Started the last project of the Data Visualization path: A Tree map with D3. | 🔨 |
 | 7️⃣ 4️⃣ | Mar 28, 2019 | [Choropleth Map](https://codepen.io/Wapika/pen/YggmwZ) | I encountered a problem with the order of data today, a problem solved by using a double loop for. I added a legend and a description, the project now passes all the tests. | ✔️ |
