@@ -2,6 +2,8 @@
 
 | Day | Date | Project | Progress & Lessons | Status |
 | --- | --- | --- | --- | --- |
+https://cryptozombies.io/
+| 7️⃣ 8️⃣ | Apr 01, 2019 | [CryptoZombies](https://cryptozombies.io/) | Started to learn Solidity. Completed the fist chapter of CryptoZombies today and learned some basic syntax (functions, arrays, uint and string...) | 🔨 |
 | 7️⃣ 7️⃣ | Mar 31, 2019 | [Gatsby Blog](https://github.com/MattLdwig/kurinsu) | Fix offCanvas navigation on mobile (remove focusAfterClose), fix columns width on small devices (<=320px), add a home navigation link. | 🔨 |
 | 7️⃣ 6️⃣ | Mar 30, 2019 | [Gatsby Blog](https://github.com/MattLdwig/kurinsu) | Mobile navigation update. Used [react-aria-offcanvas](https://www.npmjs.com/package/react-aria-offcanvas) and [react-responsive](https://www.npmjs.com/package/react-responsive) to display an offcanvas navigation on mobile. | 🔨 |
 | 7️⃣ 5️⃣ | Mar 29, 2019 | [Tree map](https://codepen.io/Wapika/pen/WmVPvz) | Started the last project of the Data Visualization path: A Tree map with D3. | 🔨 |
