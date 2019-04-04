@@ -2,7 +2,8 @@
 
 | Day | Date | Project | Progress & Lessons | Status |
 | --- | --- | --- | --- | --- |
-| 8️⃣ 0️⃣ | Apr 03, 2019 | [Tree map](https://codepen.io/Wapika/pen/WmVPvz) | Wordkey on the Tree Map project today. Displayed Tree map with `d3.hierarchy()` and `d3.treemap()`.| 🔨 |
+| 8️⃣ 1️⃣ | Apr 04, 2019 | [Tree map](https://codepen.io/Wapika/pen/WmVPvz) |D3 Treemap follow up: append text data to the map. I tried to format the text with `tspan` but I have to learn a bit more about how it works. | 🔨 |
+| 8️⃣ 0️⃣ | Apr 03, 2019 | [Tree map](https://codepen.io/Wapika/pen/WmVPvz) | Worked on the Treemap project today. Displayed Tree map with `d3.hierarchy()` and `d3.treemap()`.| 🔨 |
 | 7️⃣ 9️⃣ | Apr 02, 2019 | [Personal Wiki](https://github.com/MattLdwig/my-wiki) | Solidity: Writed my first Smart Contract with Remix.| 🔨 |
 | 7️⃣ 8️⃣ | Apr 01, 2019 | [CryptoZombies](https://cryptozombies.io/) | Started to learn Solidity. Completed the fist chapter of CryptoZombies today and learned some basic syntax (functions, arrays, uint and string...) | 🔨 |
 | 7️⃣ 7️⃣ | Mar 31, 2019 | [Gatsby Blog](https://github.com/MattLdwig/kurinsu) | Fix offCanvas navigation on mobile (remove focusAfterClose), fix columns width on small devices (<=320px), add a home navigation link. | 🔨 |
