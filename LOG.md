@@ -2,6 +2,7 @@
 
 | Day | Date | Project | Progress & Lessons | Status |
 | --- | --- | --- | --- | --- |
+| 8️⃣ 3️⃣ | Apr 06, 2019 | - | Pine script strategy | 🔨 |
 | 8️⃣ 2️⃣ | Apr 05, 2019 | [Tree map](https://codepen.io/Wapika/pen/WmVPvz) |D3 Treemap Completed. | ✔️ |
 | 8️⃣ 1️⃣ | Apr 04, 2019 | [Tree map](https://codepen.io/Wapika/pen/WmVPvz) |D3 Treemap follow up: append text data to the map. I tried to format the text with `tspan` but I have to learn a bit more about how it works. | 🔨 |
 | 8️⃣ 0️⃣ | Apr 03, 2019 | [Tree map](https://codepen.io/Wapika/pen/WmVPvz) | Worked on the Treemap project today. Displayed Tree map with `d3.hierarchy()` and `d3.treemap()`.| 🔨 |
