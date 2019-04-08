@@ -2,6 +2,7 @@
 
 | Day | Date | Project | Progress & Lessons | Status |
 | --- | --- | --- | --- | --- |
+| 8️⃣ 5️⃣ | Apr 08, 2019 | [NPM](https://learn.freecodecamp.org/apis-and-microservices/managing-packages-with-npm) | Completed the first section of the API path on Freecodecamp. Learned to create a package.json file, to add some useful informations (author, desc, keywords, license & version) and to manage npm dependencies with SemVer. | ✔️ |
 | 8️⃣ 4️⃣ | Apr 07, 2019 | - | Pine script strategy | 🔨 |
 | 8️⃣ 3️⃣ | Apr 06, 2019 | - | Pine script strategy | 🔨 |
 | 8️⃣ 2️⃣ | Apr 05, 2019 | [Tree map](https://codepen.io/Wapika/pen/WmVPvz) |D3 Treemap Completed. | ✔️ |
