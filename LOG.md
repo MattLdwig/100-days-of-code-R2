@@ -3,10 +3,10 @@
 | Day | Date | Project | Progress & Lessons | Status |
 | --- | --- | --- | --- | --- |
 | 8️⃣ 5️⃣ | Apr 08, 2019 | [NPM](https://learn.freecodecamp.org/apis-and-microservices/managing-packages-with-npm) | Completed the first section of the API path on Freecodecamp. Learned to create a package.json file, to add some useful informations (author, desc, keywords, license & version) and to manage npm dependencies with SemVer. | ✔️ |
-| 8️⃣ 4️⃣ | Apr 07, 2019 | - | Pine script strategy | 🔨 |
-| 8️⃣ 3️⃣ | Apr 06, 2019 | - | Pine script strategy | 🔨 |
-| 8️⃣ 2️⃣ | Apr 05, 2019 | [Tree map](https://codepen.io/Wapika/pen/WmVPvz) |D3 Treemap Completed. | ✔️ |
-| 8️⃣ 1️⃣ | Apr 04, 2019 | [Tree map](https://codepen.io/Wapika/pen/WmVPvz) |D3 Treemap follow up: append text data to the map. I tried to format the text with `tspan` but I have to learn a bit more about how it works. | 🔨 |
+| 8️⃣ 4️⃣ | Apr 07, 2019 | - | Worked on my trading strategy and made some backtest. | 🔨 |
+| 8️⃣ 3️⃣ | Apr 06, 2019 | - | Frontend break. I've tried to code a new crypto trading strategy with Pinescript today. | 🔨 |
+| 8️⃣ 2️⃣ | Apr 05, 2019 | [Tree map](https://codepen.io/Wapika/pen/WmVPvz) | Treemap & [Data Visualization Certification](https://www.freecodecamp.org/certification/mattldwig/data-visualization) completed. | ✔️ |
+| 8️⃣ 1️⃣ | Apr 04, 2019 | [Tree map](https://codepen.io/Wapika/pen/WmVPvz) | D3 Treemap follow up: append text data to the map. I tried to format the text with `tspan` but I have to learn a bit more about how it works. | 🔨 |
 | 8️⃣ 0️⃣ | Apr 03, 2019 | [Tree map](https://codepen.io/Wapika/pen/WmVPvz) | Worked on the Treemap project today. Displayed Tree map with `d3.hierarchy()` and `d3.treemap()`.| 🔨 |
 | 7️⃣ 9️⃣ | Apr 02, 2019 | [Personal Wiki](https://github.com/MattLdwig/my-wiki) | Solidity: Writed my first Smart Contract with Remix.| 🔨 |
 | 7️⃣ 8️⃣ | Apr 01, 2019 | [CryptoZombies](https://cryptozombies.io/) | Started to learn Solidity. Completed the fist chapter of CryptoZombies today and learned some basic syntax (functions, arrays, uint and string...) | 🔨 |
