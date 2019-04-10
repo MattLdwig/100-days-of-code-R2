@@ -2,6 +2,7 @@
 
 | Day | Date | Project | Progress & Lessons | Status |
 | --- | --- | --- | --- | --- |
+| 8️⃣ 7️⃣ | Apr 10, 2019 | Ethereum & Solidity | Started to code a Lottery Contract - Learned about types, fixed and dynamic arrays, struct and mapping. | 🔨 |
 | 8️⃣ 6️⃣ | Apr 09, 2019 | [Basic Node and Express](https://learn.freecodecamp.org/apis-and-microservices/basic-node-and-express) | Started the next part of the API path. Introduction to Node and Express. I learn to serve an HTML file, to serve JSON on a specific route and to implement a middleware. | 🔨 |
 | 8️⃣ 5️⃣ | Apr 08, 2019 | [NPM](https://learn.freecodecamp.org/apis-and-microservices/managing-packages-with-npm) | Completed the first section of the API path on Freecodecamp. Learned to create a package.json file, to add some useful informations (author, desc, keywords, license & version) and to manage npm dependencies with SemVer. | ✔️ |
 | 8️⃣ 4️⃣ | Apr 07, 2019 | - | Worked on my trading strategy and made some backtest. | 🔨 |
@@ -9,8 +10,8 @@
 | 8️⃣ 2️⃣ | Apr 05, 2019 | [Tree map](https://codepen.io/Wapika/pen/WmVPvz) | Treemap & [Data Visualization Certification](https://www.freecodecamp.org/certification/mattldwig/data-visualization) completed. | ✔️ |
 | 8️⃣ 1️⃣ | Apr 04, 2019 | [Tree map](https://codepen.io/Wapika/pen/WmVPvz) | D3 Treemap follow up: append text data to the map. I tried to format the text with `tspan` but I have to learn a bit more about how it works. | 🔨 |
 | 8️⃣ 0️⃣ | Apr 03, 2019 | [Tree map](https://codepen.io/Wapika/pen/WmVPvz) | Worked on the Treemap project today. Displayed Tree map with `d3.hierarchy()` and `d3.treemap()`.| 🔨 |
-| 7️⃣ 9️⃣ | Apr 02, 2019 | [Personal Wiki](https://github.com/MattLdwig/my-wiki) | Solidity: Writed my first Smart Contract with Remix.| 🔨 |
-| 7️⃣ 8️⃣ | Apr 01, 2019 | [CryptoZombies](https://cryptozombies.io/) | Started to learn Solidity. Completed the fist chapter of CryptoZombies today and learned some basic syntax (functions, arrays, uint and string...) | 🔨 |
+| 7️⃣ 9️⃣ | Apr 02, 2019 | Ethereum & Solidity | Solidity: Writed my first Smart Contract with Remix.| 🔨 |
+| 7️⃣ 8️⃣ | Apr 01, 2019 | Ethereum & Solidity | Started to learn Solidity. Completed the fist chapter of CryptoZombies today and learned some basic syntax (functions, arrays, uint and string...) | 🔨 |
 | 7️⃣ 7️⃣ | Mar 31, 2019 | [Gatsby Blog](https://github.com/MattLdwig/kurinsu) | Fix offCanvas navigation on mobile (remove focusAfterClose), fix columns width on small devices (<=320px), add a home navigation link. | 🔨 |
 | 7️⃣ 6️⃣ | Mar 30, 2019 | [Gatsby Blog](https://github.com/MattLdwig/kurinsu) | Mobile navigation update. Used [react-aria-offcanvas](https://www.npmjs.com/package/react-aria-offcanvas) and [react-responsive](https://www.npmjs.com/package/react-responsive) to display an offcanvas navigation on mobile. | 🔨 |
 | 7️⃣ 5️⃣ | Mar 29, 2019 | [Tree map](https://codepen.io/Wapika/pen/WmVPvz) | Started the last project of the Data Visualization path: A Tree map with D3. | 🔨 |
