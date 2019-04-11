@@ -2,6 +2,7 @@
 
 | Day | Date | Project | Progress & Lessons | Status |
 | --- | --- | --- | --- | --- |
+| 8️⃣ 8️⃣ | Apr 11, 2019 | Ethereum & Solidity | Finished the Lottery Contract. Learned how to send Ether from Contracts, how to reset a contract state and how to use function modifiers to avoid DRY. | 🔨 |
 | 8️⃣ 7️⃣ | Apr 10, 2019 | Ethereum & Solidity | Started to code a Lottery Contract - Learned about types, fixed and dynamic arrays, struct and mapping. | 🔨 |
 | 8️⃣ 6️⃣ | Apr 09, 2019 | [Basic Node and Express](https://learn.freecodecamp.org/apis-and-microservices/basic-node-and-express) | Started the next part of the API path. Introduction to Node and Express. I learn to serve an HTML file, to serve JSON on a specific route and to implement a middleware. | 🔨 |
 | 8️⃣ 5️⃣ | Apr 08, 2019 | [NPM](https://learn.freecodecamp.org/apis-and-microservices/managing-packages-with-npm) | Completed the first section of the API path on Freecodecamp. Learned to create a package.json file, to add some useful informations (author, desc, keywords, license & version) and to manage npm dependencies with SemVer. | ✔️ |
