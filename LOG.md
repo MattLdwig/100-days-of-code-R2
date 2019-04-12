@@ -2,6 +2,7 @@
 
 | Day | Date | Project | Progress & Lessons | Status |
 | --- | --- | --- | --- | --- |
+| 8️⃣ 9️⃣ | Apr 12, 2019 | [Basic Node and Express](https://glitch.com/edit/#!/checkered-worm?path=myApp.js:89:25) | Completed the part Basic Node and Express today. Learned how to use body-parser as middleware and how to get Data from POST requests. | 🔨 |
 | 8️⃣ 8️⃣ | Apr 11, 2019 | Ethereum & Solidity | Finished the Lottery Contract. Learned how to send Ether from Contracts, how to reset a contract state and how to use function modifiers to avoid DRY. | 🔨 |
 | 8️⃣ 7️⃣ | Apr 10, 2019 | Ethereum & Solidity | Started to code a Lottery Contract - Learned about types, fixed and dynamic arrays, struct and mapping. | 🔨 |
 | 8️⃣ 6️⃣ | Apr 09, 2019 | [Basic Node and Express](https://learn.freecodecamp.org/apis-and-microservices/basic-node-and-express) | Started the next part of the API path. Introduction to Node and Express. I learn to serve an HTML file, to serve JSON on a specific route and to implement a middleware. | 🔨 |
