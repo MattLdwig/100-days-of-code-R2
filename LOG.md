@@ -2,6 +2,7 @@
 
 | Day | Date | Project | Progress & Lessons | Status |
 | --- | --- | --- | --- | --- |
+| 9️⃣ 2️⃣ | Apr 15, 2019 | [Lottery Contract](https://github.com/MattLdwig/lottery-app-solidity.git) | Started to build the front-end part of the Lottery Contract (Udemy course) with React. | 🔨 |
 | 9️⃣ 1️⃣ | Apr 14, 2019 | ETH Leaderboard | Started to work on a smart contract for a crypto leaderboard site today. | 🔨 |
 | 9️⃣ 0️⃣ | Apr 13, 2019 | Ethereum & Solidity | Completed the second chapter of Cryptozombies.| 🔨 |
 | 8️⃣ 9️⃣ | Apr 12, 2019 | [Basic Node and Express](https://glitch.com/edit/#!/checkered-worm?path=myApp.js:89:25) | Completed the part Basic Node and Express today. Learned how to use body-parser as middleware and how to get Data from POST requests. | 🔨 |
