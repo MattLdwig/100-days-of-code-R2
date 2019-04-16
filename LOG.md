@@ -2,6 +2,7 @@
 
 | Day | Date | Project | Progress & Lessons | Status |
 | --- | --- | --- | --- | --- |
+| 9️⃣ 3️⃣ | Apr 16, 2019 | Pinescript Strategy | Add some indicators to my strategy. Used Pivot Point with Stochastic & SMA to find entry point. | 🔨 |
 | 9️⃣ 2️⃣ | Apr 15, 2019 | [Lottery Contract](https://github.com/MattLdwig/lottery-app-solidity.git) | Started to build the front-end part of the Lottery Contract (Udemy course) with React. | 🔨 |
 | 9️⃣ 1️⃣ | Apr 14, 2019 | ETH Leaderboard | Started to work on a smart contract for a crypto leaderboard site today. | 🔨 |
 | 9️⃣ 0️⃣ | Apr 13, 2019 | Ethereum & Solidity | Completed the second chapter of Cryptozombies.| 🔨 |
@@ -10,8 +11,8 @@
 | 8️⃣ 7️⃣ | Apr 10, 2019 | Ethereum & Solidity | Started to code a Lottery Contract - Learned about types, fixed and dynamic arrays, struct and mapping. | 🔨 |
 | 8️⃣ 6️⃣ | Apr 09, 2019 | [Basic Node and Express](https://learn.freecodecamp.org/apis-and-microservices/basic-node-and-express) | Started the next part of the API path. Introduction to Node and Express. I learn to serve an HTML file, to serve JSON on a specific route and to implement a middleware. | 🔨 |
 | 8️⃣ 5️⃣ | Apr 08, 2019 | [NPM](https://learn.freecodecamp.org/apis-and-microservices/managing-packages-with-npm) | Completed the first section of the API path on Freecodecamp. Learned to create a package.json file, to add some useful informations (author, desc, keywords, license & version) and to manage npm dependencies with SemVer. | ✔️ |
-| 8️⃣ 4️⃣ | Apr 07, 2019 | - | Worked on my trading strategy and made some backtest. | 🔨 |
-| 8️⃣ 3️⃣ | Apr 06, 2019 | - | Frontend break. I've tried to code a new crypto trading strategy with Pinescript today. | 🔨 |
+| 8️⃣ 4️⃣ | Apr 07, 2019 | Pinescript Strategy | Worked on my trading strategy and made some backtest. | 🔨 |
+| 8️⃣ 3️⃣ | Apr 06, 2019 | Pinescript Strategy | Frontend break. I've tried to code a new crypto trading strategy with Pinescript today. | 🔨 |
 | 8️⃣ 2️⃣ | Apr 05, 2019 | [Tree map](https://codepen.io/Wapika/pen/WmVPvz) | Treemap & [Data Visualization Certification](https://www.freecodecamp.org/certification/mattldwig/data-visualization) completed. | ✔️ |
 | 8️⃣ 1️⃣ | Apr 04, 2019 | [Tree map](https://codepen.io/Wapika/pen/WmVPvz) | D3 Treemap follow up: append text data to the map. I tried to format the text with `tspan` but I have to learn a bit more about how it works. | 🔨 |
 | 8️⃣ 0️⃣ | Apr 03, 2019 | [Tree map](https://codepen.io/Wapika/pen/WmVPvz) | Worked on the Treemap project today. Displayed Tree map with `d3.hierarchy()` and `d3.treemap()`.| 🔨 |
