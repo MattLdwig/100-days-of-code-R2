@@ -2,6 +2,8 @@
 
 | Day | Date | Project | Progress & Lessons | Status |
 | --- | --- | --- | --- | --- |
+| 9️⃣ 5️⃣ | Apr 18, 2019 | Pinescript Strategy | Refining the strategy, achieving 82% success | 🔨 |
+| 9️⃣ 4️⃣ | Apr 17, 2019 | Pinescript Strategy | Refining the strategy, achieving 70% success | 🔨 |
 | 9️⃣ 3️⃣ | Apr 16, 2019 | Pinescript Strategy | Add some indicators to my strategy. Used Pivot Point with Stochastic & SMA to find entry point. | 🔨 |
 | 9️⃣ 2️⃣ | Apr 15, 2019 | [Lottery Contract](https://github.com/MattLdwig/lottery-app-solidity.git) | Started to build the front-end part of the Lottery Contract (Udemy course) with React. | 🔨 |
 | 9️⃣ 1️⃣ | Apr 14, 2019 | ETH Leaderboard | Started to work on a smart contract for a crypto leaderboard site today. | 🔨 |
