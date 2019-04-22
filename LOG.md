@@ -2,6 +2,7 @@
 
 | Day | Date | Project | Progress & Lessons | Status |
 | --- | --- | --- | --- | --- |
+| 9️⃣ 9️⃣ | Apr 22, 2019 | Pinescript Strategy |  | 🔨 |
 | 9️⃣ 8️⃣ | Apr 21, 2019 | [Bitdegree SpaceDoggo](https://www.bitdegree.org/) | Completed the first part of the course: Learn to build Ethereum games on Bitdegree. | ✔️ |
 | 9️⃣ 7️⃣ | Apr 20, 2019 | Pinescript Strategy |  | 🔨 |
 | 9️⃣ 6️⃣ | Apr 19, 2019 | Pinescript Strategy |  | 🔨 |
