@@ -2,10 +2,11 @@
 
 | Day | Date | Project | Progress & Lessons | Status |
 | --- | --- | --- | --- | --- |
-| 9️⃣ 9️⃣ | Apr 22, 2019 | Pinescript Strategy |  | 🔨 |
+| 1️⃣ 0️⃣ 0️⃣ | Apr 23, 2019 |[Gatsby Blog](https://github.com/MattLdwig/cryptisla) | Blog layout modifications. | 🔨 |
+| 9️⃣ 9️⃣ | Apr 22, 2019 | Pinescript Strategy | - | 🔨 |
 | 9️⃣ 8️⃣ | Apr 21, 2019 | [Bitdegree SpaceDoggo](https://www.bitdegree.org/) | Completed the first part of the course: Learn to build Ethereum games on Bitdegree. | ✔️ |
-| 9️⃣ 7️⃣ | Apr 20, 2019 | Pinescript Strategy |  | 🔨 |
-| 9️⃣ 6️⃣ | Apr 19, 2019 | Pinescript Strategy |  | 🔨 |
+| 9️⃣ 7️⃣ | Apr 20, 2019 | Pinescript Strategy | - | 🔨 |
+| 9️⃣ 6️⃣ | Apr 19, 2019 | Pinescript Strategy | - | 🔨 |
 | 9️⃣ 5️⃣ | Apr 18, 2019 | Pinescript Strategy | Refining the strategy, achieving 82% success | 🔨 |
 | 9️⃣ 4️⃣ | Apr 17, 2019 | Pinescript Strategy | Refining the strategy, achieving 70% success | 🔨 |
 | 9️⃣ 3️⃣ | Apr 16, 2019 | Pinescript Strategy | Add some indicators to my strategy. Used Pivot Point with Stochastic & SMA to find entry point. | 🔨 |
